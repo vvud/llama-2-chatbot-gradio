@@ -1,0 +1,7 @@
+langchain
+transformers
+ctransformers
+huggingface_hub
+gradio
+tensorflow
+torch
