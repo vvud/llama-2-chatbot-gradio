@@ -5,8 +5,6 @@ import os
 import io
 import gradio as gr
 import time
-from dotenv import load_dotenv
-load_dotenv()
 # !pip install git+https://github.com/huggingface/transformers.git
 
 custom_prompt_template = """
