@@ -4,7 +4,7 @@ from langchain import PromptTemplate
 import os
 import io
 import gradio as gr
-import time
+import dotenv
 # !pip install git+https://github.com/huggingface/transformers.git
 
 custom_prompt_template = """
@@ -56,7 +56,8 @@ def set_custom_prompt():
 # tokenizer = AutoTokenizer.from_pretrained("vuongvd/elfbar-chat")
 # model = AutoModelForCausalLM.from_pretrained("vuongvd/elfbar-chat")
 
-# HF_TOKEN = os.environ.get('HF_TOKEN', default='')
+# dotenv.load_dotenv('.env')
+# HF_TOKEN = os.getenv('HF_TOKEN', default='')
 # from huggingface_hub import login
 # login(HF_TOKEN)
 

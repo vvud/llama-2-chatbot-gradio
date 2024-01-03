@@ -19,7 +19,8 @@ pip install -r requirements.txt
 
 2. Uncomment this validation code in *app.python*:
 ```
-HF_TOKEN = os.environ.get('HF_TOKEN', default='')
+dotenv.load_dotenv('.env')
+HF_TOKEN = os.getenv('HF_TOKEN', default='')
 from huggingface_hub import login
 login(HF_TOKEN)
 ```

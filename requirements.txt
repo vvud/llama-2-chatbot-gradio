@@ -1,4 +1,5 @@
 langchain
+python-dotenv
 transformers
 ctransformers
 huggingface_hub
