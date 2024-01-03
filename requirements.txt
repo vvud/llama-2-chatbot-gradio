@@ -1,8 +1,8 @@
+ctransformers
+gradio
+huggingface_hub
 langchain
 python-dotenv
-transformers
-ctransformers
-huggingface_hub
-gradio
 tensorflow
 torch
+transformers
